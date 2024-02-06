@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tide Forecast</h1>
+    </header>
+    <form id="weatherForm">
+      <label for="locationInput">Enter location:</label>
+      <input type="text" id="locationInput" required />
+      <button type="button" onclick="fetchWeather()">Get Weather</button>
+    </form>
+
+    <div id="weatherData"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
